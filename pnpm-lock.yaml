@@ -264,6 +264,12 @@ importers:
       '@astrojs/turbolinks': link:../../packages/integrations/turbolinks
       astro: link:../../packages/astro
 
+  examples/markdown-content-style-bug:
+    specifiers:
+      astro: workspace:*
+    devDependencies:
+      astro: link:../../packages/astro
+
   examples/minimal:
     specifiers:
       astro: ^1.0.0-beta.10
